@@ -1,0 +1,12 @@
+:global int skill_amount
+:local double skill_cooldown
+:local int skill
+
+skill = skill_amount
+
+loop:
+	useinstant(skill)
+    skill_cooldown = cooldown(skill)/6.0
+    wait(skill_cooldown)
+
+	goto(loop)
