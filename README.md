@@ -19,9 +19,8 @@ So this package includes 3 Scripts:
 - The scipt thinks that you use ***game speed 3X***. If you don't have that yet and you run at ***game speed 2X*** you need to change the line where it says ```[Module(Local(ST)).Cooldown / 6.0]``` to ```[Module(Local(ST)).Cooldown / 4.0]``` 
 
 
-**Files:**
-
-*** Workspace.txt ***
+***Files:***
+***Workspace.txt***
 Code for the entire Script List
 
 ***Skill.txt***
